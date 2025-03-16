@@ -30,7 +30,7 @@ public class MigrationStrategy {
                     var jdbcConnection = new JdbcConnection(connection);
             ){
                 var liquibase = new Liquibase(
-                        "src/main/resources/db/changelog/db.changelog-master.yml",
+                        "/db/changelog/db.changelog-master.yml",
                         new ClassLoaderResourceAccessor(),
                         jdbcConnection);
                 liquibase.update();

@@ -13,8 +13,8 @@ public final class ConnectionConfig {
 
     public static Connection getConnection() throws SQLException {
         var url = "jdbc:mysql://localhost/board";
-        var user = "root";
-        var password = "5shyrbdi";
+        var user = System.getenv("DB_USER");
+        var password = System.getenv("DB_PASSWORD");
         var connection = DriverManager.getConnection(url, user, password);
         connection.setAutoCommit(false);
         return connection;
