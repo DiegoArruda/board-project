@@ -1,33 +1,67 @@
-mar. 16, 2025 2:29:57 PM liquibase.changelog
-INFORMA합ES: Reading resource: db/changelog/migrations/db.changelog-202408191938.sql
-mar. 16, 2025 2:29:58 PM liquibase.changelog
+mar. 16, 2025 3:03:55 PM liquibase.changelog
+INFORMA합ES: Reading resource: db/changelog/migrations/db.changelog-202503161425.sql
+mar. 16, 2025 3:03:55 PM liquibase.changelog
+INFORMA합ES: Reading resource: db/changelog/migrations/db.changelog-202503161433.sql
+mar. 16, 2025 3:03:55 PM liquibase.changelog
+INFORMA합ES: Reading resource: db/changelog/migrations/db.changelog-202503161448.sql
+mar. 16, 2025 3:03:55 PM liquibase.changelog
+INFORMA합ES: Reading resource: db/changelog/migrations/db.changelog-202503161451.sql
+mar. 16, 2025 3:03:55 PM liquibase.changelog
+INFORMA합ES: Reading resource: db/changelog/migrations/db.changelog-202503161456.sql
+mar. 16, 2025 3:03:55 PM liquibase.changelog
 INFORMA합ES: Reading from board.databasechangelog
-Database is up to date, no changesets to execute
-mar. 16, 2025 2:29:58 PM liquibase.changelog
+mar. 16, 2025 3:03:55 PM liquibase.lockservice
+INFORMA합ES: Successfully acquired change log lock
+mar. 16, 2025 3:03:55 PM liquibase.command
+INFORMA합ES: Using deploymentId: 2148235632
+mar. 16, 2025 3:03:55 PM liquibase.changelog
 INFORMA합ES: Reading from board.databasechangelog
+Running Changeset: db/changelog/migrations/db.changelog-202503161433.sql::202503161430::diego
+mar. 16, 2025 3:03:55 PM liquibase.changelog
+INFORMA합ES: Custom SQL executed
+mar. 16, 2025 3:03:55 PM liquibase.changelog
+INFORMA합ES: ChangeSet db/changelog/migrations/db.changelog-202503161433.sql::202503161430::diego ran successfully in 196ms
+Running Changeset: db/changelog/migrations/db.changelog-202503161448.sql::202503161430::diego
+mar. 16, 2025 3:03:56 PM liquibase.changelog
+INFORMA합ES: Custom SQL executed
+mar. 16, 2025 3:03:56 PM liquibase.changelog
+INFORMA합ES: ChangeSet db/changelog/migrations/db.changelog-202503161448.sql::202503161430::diego ran successfully in 164ms
+Running Changeset: db/changelog/migrations/db.changelog-202503161451.sql::202503161430::diego
+mar. 16, 2025 3:03:56 PM liquibase.changelog
+INFORMA합ES: Custom SQL executed
+mar. 16, 2025 3:03:56 PM liquibase.changelog
+INFORMA합ES: ChangeSet db/changelog/migrations/db.changelog-202503161451.sql::202503161430::diego ran successfully in 208ms
+Running Changeset: db/changelog/migrations/db.changelog-202503161456.sql::202503161456::diego
+mar. 16, 2025 3:03:56 PM liquibase.changelog
+INFORMA합ES: Custom SQL executed
+mar. 16, 2025 3:03:56 PM liquibase.changelog
+INFORMA합ES: ChangeSet db/changelog/migrations/db.changelog-202503161456.sql::202503161456::diego ran successfully in 129ms
 
 UPDATE SUMMARY
-Run:                          0
+Run:                          4
 Previously run:               1
 Filtered out:                 0
 -------------------------------
-Total change sets:            1
+Total change sets:            5
 
-mar. 16, 2025 2:29:58 PM liquibase.util
+mar. 16, 2025 3:03:56 PM liquibase.util
 INFORMA합ES: UPDATE SUMMARY
-mar. 16, 2025 2:29:58 PM liquibase.util
-INFORMA합ES: Run:                          0
-mar. 16, 2025 2:29:58 PM liquibase.util
+mar. 16, 2025 3:03:56 PM liquibase.util
+INFORMA합ES: Run:                          4
+mar. 16, 2025 3:03:56 PM liquibase.util
 INFORMA합ES: Previously run:               1
-mar. 16, 2025 2:29:58 PM liquibase.util
+mar. 16, 2025 3:03:56 PM liquibase.util
 INFORMA합ES: Filtered out:                 0
-mar. 16, 2025 2:29:58 PM liquibase.util
+mar. 16, 2025 3:03:56 PM liquibase.util
 INFORMA합ES: -------------------------------
-mar. 16, 2025 2:29:58 PM liquibase.util
-INFORMA합ES: Total change sets:            1
-mar. 16, 2025 2:29:58 PM liquibase.util
+mar. 16, 2025 3:03:56 PM liquibase.util
+INFORMA합ES: Total change sets:            5
+mar. 16, 2025 3:03:56 PM liquibase.util
 INFORMA합ES: Update summary generated
-mar. 16, 2025 2:29:58 PM liquibase.lockservice
+mar. 16, 2025 3:03:56 PM liquibase.command
+INFORMA합ES: Update command completed successfully.
+Liquibase: Update has been successful. Rows affected: 4
+mar. 16, 2025 3:03:56 PM liquibase.lockservice
 INFORMA합ES: Successfully released change log lock
-mar. 16, 2025 2:29:58 PM liquibase.command
+mar. 16, 2025 3:03:56 PM liquibase.command
 INFORMA합ES: Command execution complete

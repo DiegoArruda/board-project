@@ -1,5 +1,5 @@
 --liquibase formatted sql
---changeset junior:202408191938
+--changeset diego:202503161430
 --comment: boards table create
 
 CREATE TABLE BOARDS(
